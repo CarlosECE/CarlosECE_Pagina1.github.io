@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tortería "El Güerito"</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Encabezado con imagen del local -->
+    <h1>Tortería El Güerito</h1>
+    <header>
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li>
+                    <a href="#menu">Menú</a>
+                    <ul>
+                        <li><a href="#tortas">Tortas</a></li>
+                        <li><a href="#bebidas">Bebidas</a></li>
+                        <li><a href="#postres">Postres</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <img src="/Imagenes/local.jpeg" alt="Local de la Tortería El Güerito" width="1400">
+    </header>
+
+    <!-- Contenido de la página -->
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos a la Tortería "El Güerito"</h1>
+            <p>Ofrecemos deliciosas tortas tradicionales con ingredientes frescos y de alta calidad.</p>
+            <img src="/Imagenes/tortainicio.jpeg" alt="Torta de la Tortería El Güerito" width="300">
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            <p>La Tortería "El Güerito" es un lugar acogedor donde puedes disfrutar de auténticas tortas mexicanas.
+                Nuestro objetivo es brindar una experiencia gastronómica única para nuestros clientes.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Menú</h2>
+            <div id="tortas" class="categoria-menu">
+                <h3>Tortas</h3>
+
+
+                <div class="producto">
+                    <img src="/Imagenes/torta1.jpeg" alt="Torta de Jamón" width="300">
+                    <h4>Torta de Jamón</h4>
+                    <p>Precio: $50</p>
+                </div>
+                <div class="producto">
+                    <img src="/Imagenes/torta2.jpeg" alt="Torta de Milanesa" width="300">
+                    <h4>Torta de Milanesa</h4>
+                    <p>Precio: $60</p>
+                </div>
+                <!-- Agregar más tortas aquí -->
+            </div>
+            <div id="bebidas" class="categoria-menu">
+                <h3>Bebidas</h3>
+                <div class="producto">
+                    <img src="/Imagenes/michelada.jpeg" alt="Michelada" width="200">
+                    <h4>Michelada</h4>
+                    <p>Precio: $20</p>
+                </div>
+                <div class="producto">
+                    <img src="bebida2.jpg" alt="Agua fresca">
+                    <h4>Agua fresca</h4>
+                    <p>Precio: $25</p>
+                </div>
+                <!-- Agregar más bebidas aquí -->
+            </div>
+            <div id="postres" class="categoria-menu">
+                <h3>Postres</h3>
+                <div class="producto">
+                    <img src="postre1.jpg" alt="">
+                    <h4></h4>
+                    <p>Precio: /p>
+                </div>
+                <div class="producto">
+                    <img src="postre2.jpg" alt="">
+                    <h4></h4>
+                    <p>Precio: </p>
+                </div>
+                <!-- Agregar más postres aquí -->
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes encontrarnos en:</p>
+            <address>
+                Atrás de Bodega Aurrera, Calle Camino Real<br>
+                Chilapa de Álvarez, Guerrero, México, 41100<br>
+                Teléfono: 7561076044<br>
+                Facebook: Torteria El Güerito<br>
+            </address>
+        </section>
+    </main>
+
+    <!-- Chat integrado -->
+    <div id="chat">
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>

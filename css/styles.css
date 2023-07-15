@@ -1,0 +1,70 @@
+h1 {
+    font-style: italic;
+    color: rgb(231, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para el menú */
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+}
+
+nav ul {
+    background: #4b545f;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #4b545f;
+    transition: background 0.5s;
+}
+
+nav ul li:hover a {
+    color: #f56f01;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #757575;
+    text-decoration: none;
+}
+
+nav ul ul {
+    background: #5f6975;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 10px 20px;
+    color: #00ff00;
+}
+
+nav ul ul li a:hover {
+    background: #4b545f;
+    transition: background 0.5s;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
